@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Keyboard">
+      <UniqueIdentifier>{fd97dc8a-0c3a-431c-a711-e656a5bd2ea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Keyboard">
+      <UniqueIdentifier>{c3644220-73e8-448f-a622-53b70dfbe2e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mouse">
+      <UniqueIdentifier>{309949b3-8d75-40bd-87a0-91453d3d4188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mouse">
+      <UniqueIdentifier>{f283650e-6173-4113-be14-6362dea37628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{a5aa43e9-1bec-45c7-bf89-08777ac7b395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{4340eba9-e386-4b08-ac1d-89259c9cb569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\ImGUI">
+      <UniqueIdentifier>{0779ae86-94ba-4a0c-98dc-996305512e3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\ImGUI">
+      <UniqueIdentifier>{7ed69a86-c449-40ee-9d20-b844eb3c9ad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures">
+      <UniqueIdentifier>{9afc9cf4-2f0b-4b40-aa67-2642ccb307ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Fonts">
+      <UniqueIdentifier>{49619b67-6971-4e44-8de1-2754571dfcee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{755c62dd-5904-42d4-9ffd-abdbed570a05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Models">
+      <UniqueIdentifier>{42b0a96c-408d-4bd2-ab27-000ce3ccbaac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="string_utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="error_logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="render_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="window_container.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard\keyboard_event.cpp">
+      <Filter>Source Files\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard\keyboard_class.cpp">
+      <Filter>Source Files\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse\mouse_class.cpp">
+      <Filter>Source Files\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse\mouse_event.cpp">
+      <Filter>Source Files\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\graphics.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\adapter_reader.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\shader.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\camera.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\ImGUI\imgui.cpp">
+      <Filter>Source Files\Graphics\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\ImGUI\imgui_draw.cpp">
+      <Filter>Source Files\Graphics\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\ImGUI\imgui_impl_dx11.cpp">
+      <Filter>Source Files\Graphics\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\ImGUI\imgui_impl_win32.cpp">
+      <Filter>Source Files\Graphics\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\ImGUI\imgui_tables.cpp">
+      <Filter>Source Files\Graphics\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\ImGUI\imgui_widgets.cpp">
+      <Filter>Source Files\Graphics\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\model.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\mesh.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="string_utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="error_logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="render_window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="window_container.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard\keyboard_event.h">
+      <Filter>Header Files\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard\keyboard_class.h">
+      <Filter>Header Files\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse\mouse_class.h">
+      <Filter>Header Files\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse\mouse_event.h">
+      <Filter>Header Files\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\graphics.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\adapter_reader.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\vertex.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\shader.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\vertex_buffer.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\index_buffer.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\constant_buffer_types.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\constant_buffer.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\camera.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\ImGUI\imconfig.h">
+      <Filter>Header Files\Graphics\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\ImGUI\imgui.h">
+      <Filter>Header Files\Graphics\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\ImGUI\imgui_impl_dx11.h">
+      <Filter>Header Files\Graphics\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\ImGUI\imgui_impl_win32.h">
+      <Filter>Header Files\Graphics\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\ImGUI\imgui_internal.h">
+      <Filter>Header Files\Graphics\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\ImGUI\imstb_rectpack.h">
+      <Filter>Header Files\Graphics\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\ImGUI\imstb_textedit.h">
+      <Filter>Header Files\Graphics\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\ImGUI\imstb_truetype.h">
+      <Filter>Header Files\Graphics\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="com_exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\model.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\mesh.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="pixel_shader.hlsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="vertex_shader.hlsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\Objects\nanosuit\arm_dif.png">
+      <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="Data\Objects\nanosuit\arm_showroom_ddn.png">
+      <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="Data\Objects\nanosuit\arm_showroom_spec.png">
+      <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="Data\Objects\nanosuit\body_dif.png">
+      <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="Data\Objects\nanosuit\body_showroom_ddn.png">
+      <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="Data\Objects\nanosuit\body_showroom_spec.png">
+      <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="Data\Objects\nanosuit\glass_ddn.png">
+      <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="Data\Objects\nanosuit\glass_dif.png">
+      <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="Data\Objects\nanosuit\hand_dif.png">
+      <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="Data\Objects\nanosuit\hand_showroom_ddn.png">
+      <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="Data\Objects\nanosuit\hand_showroom_spec.png">
+      <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="Data\Objects\nanosuit\helmet_diff.png">
+      <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="Data\Objects\nanosuit\helmet_showroom_ddn.png">
+      <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="Data\Objects\nanosuit\helmet_showroom_spec.png">
+      <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="Data\Objects\nanosuit\leg_dif.png">
+      <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="Data\Objects\nanosuit\leg_showroom_ddn.png">
+      <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="Data\Objects\nanosuit\leg_showroom_spec.png">
+      <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="Data\Textures\pinksquare.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="Data\Textures\seamless_grass.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="Data\Textures\seamless_pavement.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="Data\Textures\storage-container2-albedo.png">
+      <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="Data\Textures\storage-container2-ao.png">
+      <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="Data\Textures\storage-container2-height.png">
+      <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="Data\Textures\storage-container2-metallic.png">
+      <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="Data\Textures\storage-container2-normal-ogl.png">
+      <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="Data\Textures\storage-container2-preview.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="Data\Textures\storage-container2-roughness.png">
+      <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="Data\Fonts\comic_sans_ms_16.sprite">
+      <Filter>Resource Files\Fonts</Filter>
+    </None>
+    <None Include="Data\Objects\nanosuit\nanosuit.mtl">
+      <Filter>Resource Files\Models</Filter>
+    </None>
+    <None Include="Data\Objects\nanosuit\nanosuit.obj">
+      <Filter>Resource Files\Models</Filter>
+    </None>
+  </ItemGroup>
+</Project>
